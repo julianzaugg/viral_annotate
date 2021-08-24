@@ -43,8 +43,10 @@ def _split_seqid(seqid):
     viral_tool = sequence_details[3]
     return(seqid,derived_from,sample,assembly_tool,viral_tool)
 
-summary_table = pd.DataFrame(map(_split_seqid, seq_ids),
-                             columns = ["Sequence_ID", "Derived_from", "Sample", "Assembly_tool", "Viral_tool"])
+# summary_table = pd.DataFrame(map(_split_seqid, seq_ids),
+                             # columns = ["Sequence_ID", "Derived_from", "Sample", "Assembly_tool", "Viral_tool"])
+summary_table = pd.DataFrame(seq_ids,
+                             columns = ["Sequence_ID"])
 summary_table["Sequence_length"] = pd.Series(seq_lengths)
 # -------------------------------------------------------------------------------------------------------------------
 # Load lineage results.
