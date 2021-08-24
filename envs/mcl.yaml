@@ -1,0 +1,4 @@
+channels:
+  - bioconda
+dependencies:
+  - mcl = 14.137

@@ -1,0 +1,5 @@
+channels:
+  - bioconda
+dependencies:
+  - checkv = 0.7.0
+  - diamond = 2.0.8

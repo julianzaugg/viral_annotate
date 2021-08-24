@@ -1,0 +1,6 @@
+channels:
+  - bioconda
+dependencies:
+  - fastani = 1.32
+  - python = 3.8.5
+  - biopython = 1.78

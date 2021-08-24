@@ -1,0 +1,6 @@
+channels:
+  - bioconda
+dependencies:
+  - r-base = 4.0.3
+  - r-igraph = 1.2.6
+  - r-dplyr = 1.0.5

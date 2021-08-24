@@ -1,0 +1,16 @@
+VIRAL_INPUT:
+    none
+CHECKV_DB:
+    /srv/db/checkv/checkv-db-v1.0
+IMGVR_DIAMOND_PROTEIN_DB:
+    /srv/db/img/IMG_VR_2020-10-12_5.1/IMGVR_all_proteins.dmnd
+AMRFINDERPLUS_DB:
+    /srv/db/amrfinderplus
+# Reference taxonomy file. Tab-delimited. Two columns: UViG ID, Classification
+# Not provided with the database but easily generated from the IMGVR_all_Sequence_information.tsv file
+IMGVR_TAXONOMY_REFERENCE:
+    /srv/db/img/IMG_VR_2020-10-12_5.1/IMGVR_taxonomy.tsv
+MAX_THREADS:
+    8
+MAX_MEMORY:
+    100
