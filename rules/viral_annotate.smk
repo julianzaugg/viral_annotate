@@ -97,7 +97,7 @@ rule viral_abricate:
         "Running abricate on representative viral sequences"
     shell:
         """
-        declare -a databases=("card" "vfdb")
+        declare -a databases=("card" "vfdb" "resfinder")
         ABRICATE_DIR="data/viral_annotation/abricate"
         mkdir -p $ABRICATE_DIR
         for db in "${{databases[@]}}";do
